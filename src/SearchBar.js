@@ -26,7 +26,7 @@ const SearchBar = () =>{
         try{
             const response = await axios.post('https://api-inference.huggingface.co/models/deepset/roberta-base-squad2', payload, {
                 headers: {
-                    'Authorization': `Bearer ${process.env.REACT_APP_HUGGING_FACE_API_KEY}`
+                    'Authorization': `Bearer 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`
                 }
                 });
         
